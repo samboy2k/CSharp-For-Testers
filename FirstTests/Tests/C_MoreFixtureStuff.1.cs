@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace Tests
 {
     [TestFixture]
-    public class B_CreatingATestFixture
+    public class C_MoreFixtureStuff
     {
         String message;
 
@@ -12,7 +12,7 @@ namespace Tests
         [SetUp]
         public void SetUp()
         {
-            message = "I'm doing something to setup the system ready for the test";
+            message = "I'm doing something to setup the test";
             //"TestContext.Progress.WriteLine" this is the same as Console.WriteLine however the test will do the outputting in real test time, instead of .NET
             TestContext.Progress.WriteLine(message);
         }
@@ -28,7 +28,28 @@ namespace Tests
         [Test]
         public void TestOne()
         {
-            message = "I'm a test doing some stuff";
+            message = "I'm a test number 1";
+            TestContext.Progress.WriteLine(message);
+        }
+
+        [Test]
+        public void TestTwo()
+        {
+            message = "I'm a test number 2";
+            TestContext.Progress.WriteLine(message);
+        }
+
+        [OneTimeSetUp]
+        public void OneTimeSetUp()
+        {
+            message = "I'm doing something to set up all the tests";
+            TestContext.Progress.WriteLine(message);
+        }
+
+        [OneTimeTearDown]
+        public void OneTimeTearDown()
+        {
+            message = "I'm doing something to teardown all the tests";
             TestContext.Progress.WriteLine(message);
         }
     }

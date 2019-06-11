@@ -1,0 +1,8 @@
+In your groups, create a grid with the following four options:
+
+OneTimeSetUp
+SetUp
+Teardown
+OneTimeTeardown
+
+all list what you could use each for in real scenarios for your product/context.

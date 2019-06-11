@@ -34,32 +34,32 @@ namespace CSharp_For_Testers
 
     public class Person
     {
-            private String _firstName;
-            private String _middleName;
-            private String _surname;
-            private int _age;
+            private String FirstName;
+            private String MiddleName;
+            private String Surname;
+            private int Age;
 
         public Person(String firstName, String middleName, String surname, int age)
         {
-            _firstName = firstName;
-            _middleName = middleName;
-            _surname = surname;
-            _age = age;
+            FirstName = firstName;
+            MiddleName = middleName;
+            Surname = surname;
+            Age = age;
         }
 
         public String CompleteName()
         {
-            return String.Format("{0} {1} {2}", _firstName, _middleName, _surname); 
+            return String.Format("{0} {1} {2}", FirstName, MiddleName, Surname); 
         }
 
         public int CalculateAge()
         {
-            return DateTime.Now.Year - _age;
+            return DateTime.Now.Year - Age;
         }
 
         public String GetFirstName()
         {
-            return _firstName;
+            return FirstName;
         }
     }
 }   

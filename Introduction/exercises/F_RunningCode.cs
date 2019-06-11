@@ -8,7 +8,7 @@ using System;
 
 namespace CSharp_For_Testers
 {
-    public class E_RunningCode
+    public class F_RunningCode
     {
         public static String middleName = "Stephen";
         public int age = 33;
