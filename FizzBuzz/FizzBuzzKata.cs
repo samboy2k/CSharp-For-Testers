@@ -5,6 +5,14 @@ But for multiples of five print “Buzz” instead of the number.
 For numbers which are multiples of both three and five print “FizzBuzz “.
 */
 
+//As a group first outline your proposed solution
+
+//We'll share the proposed solutions
+
+//Implement them!
+
+
+
 using NUnit.Framework;
 
 namespace FizzBuzz
