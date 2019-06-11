@@ -1,0 +1,4 @@
+This is going to be the start of our NUnit project 
+But first we have to create a new Project, but this time we are going to create an NUnit project
+In our terminal we need to type 'dotnet new nunit'
+dotnet will now install everything you need for a NUnit project
