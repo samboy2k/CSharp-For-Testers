@@ -3,9 +3,6 @@
 //The audience can help, but only when asked by the person in the hotseat
 
 
-
-//TODO IMPROVE THIS
-
 using System;
 
 namespace CSharp_For_Testers
