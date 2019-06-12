@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Introduction/CSharp-For-Testers.csproj"
+                "${workspaceFolder}/SeleniumTestExample.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Introduction/CSharp-For-Testers.csproj"
+                "${workspaceFolder}/SeleniumTestExample.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -28,7 +28,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Introduction/CSharp-For-Testers.csproj"
+                "${workspaceFolder}/SeleniumTestExample.csproj"
             ],
             "problemMatcher": "$tsc"
         }
