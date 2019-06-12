@@ -12,7 +12,10 @@ namespace Tests
         public void OpenBrowserNavigateWaitClick()
         {
             //Create a new instance of Chrome
+            //If you havne't used ChromeDriver before you'll need to download it first from here - http://chromedriver.chromium.org/downloads
+            //Then for windows, uncomment the line 18 and comment out line 19, changing the path to where you downloaded ChromeDriver
             IWebDriver driver = new ChromeDriver();
+            //IWebDriver driver = new ChromeDriver(@"C:Your\Path\ChromeDriver\");
             //Navigate to the test URL
             driver.Navigate().GoToUrl("https://automationintesting.online");
 
